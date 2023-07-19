@@ -1,0 +1,56 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:course_name",
+ "creation": "2023-07-19 11:09:03.767994",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "course_id",
+  "course_name",
+  "subject_details"
+ ],
+ "fields": [
+  {
+   "fieldname": "course_id",
+   "fieldtype": "Data",
+   "label": "Course ID"
+  },
+  {
+   "fieldname": "course_name",
+   "fieldtype": "Data",
+   "label": " Course Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "subject_details",
+   "fieldtype": "Table",
+   "label": "Subject Details",
+   "options": "Subject Details"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-07-19 12:23:17.200063",
+ "modified_by": "Administrator",
+ "module": "College",
+ "name": "Course 1",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

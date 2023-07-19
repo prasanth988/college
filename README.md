@@ -1,6 +1,6 @@
 ## College
 
-College Management
+this is demo
 
 #### License
 

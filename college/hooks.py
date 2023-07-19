@@ -2,11 +2,11 @@ from . import __version__ as app_version
 
 app_name = "college"
 app_title = "College"
-app_publisher = "Prashanth"
-app_description = "College Management"
+app_publisher = "prasanth"
+app_description = "this is demo"
 app_icon = "octicon octicon-file-directory"
 app_color = "grey"
-app_email = "college@gmail.com"
+app_email = "prasanth@gmail.com"
 app_license = "MIT"
 
 # Includes in <head>

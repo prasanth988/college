@@ -1,0 +1,85 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:student_name",
+ "creation": "2023-07-19 10:58:44.113151",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "student_id",
+  "student_name",
+  "student_age",
+  "column_break_esmrc",
+  "hobbies",
+  "date_of_birth",
+  "subjects",
+  "course_1"
+ ],
+ "fields": [
+  {
+   "fieldname": "student_id",
+   "fieldtype": "Data",
+   "label": "Student ID"
+  },
+  {
+   "fieldname": "student_name",
+   "fieldtype": "Data",
+   "label": "Student Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "student_age",
+   "fieldtype": "Data",
+   "label": "Student Age"
+  },
+  {
+   "fieldname": "column_break_esmrc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "hobbies",
+   "fieldtype": "Data",
+   "label": "Hobbies"
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "Date of Birth"
+  },
+  {
+   "fieldname": "subjects",
+   "fieldtype": "Data",
+   "label": "Subjects"
+  },
+  {
+   "fieldname": "course_1",
+   "fieldtype": "Link",
+   "label": "Course 1",
+   "options": "Course 1"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-07-19 11:35:54.992562",
+ "modified_by": "Administrator",
+ "module": "College",
+ "name": "Student1",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
